@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Snake Game',
       home: SnakeGame(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
